@@ -7,6 +7,7 @@ public class Task1 {
         java.util.Scanner iScanner = new Scanner (System.in);
         System.out.print("Введите фактариал: ");
         int n = iScanner.nextInt();
+        iScanner.close();
         int fac = 1;
         for (int i = 1; i <=n ; i++) {
             fac = fac * i;
